@@ -103,7 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         "email": _emailController.text,
                         "password": _passwdController.text
                       };
-                      authProvider.loginApi(data);
+                      authProvider.loginApi(context, data);
                     }
                   })
             ],
